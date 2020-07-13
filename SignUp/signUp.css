@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.G-imags {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.images {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 380px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border: 2px solid #000;
+    padding: 25px;
+}
+
+.input-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title h1 {
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    font-family: monospace;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.input-block {
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+.input-block>input {
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, .3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    outline: none;
+    padding-left: 10px;
+}
+
+.btn-sign {
+    width: 300px;
+    height: 45px;
+}
+
+.btn-sign button {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: turquoise;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn-sign button p {
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn-sign button:hover,
+.btn-sign button p:hover {
+    color: #ffff;
+}
+
+.btn-sign button:hover {
+    background: yellow;
+}

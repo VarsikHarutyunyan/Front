@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: coral;
+}
+
+.title1 {
+    margin-top: 20px;
+}
+
+.title1 h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.header {
+    padding: 20px 0;
+    margin-top: 40px;
+    background-color: pink;
+}
+
+.header span {
+    text-align: center;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.drosh {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.HayastaniMasin {
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.HayastaniMasin p {
+    text-align: left;
+}
+
+.zbosanq {
+    width: 300px;
+    overflow-y: auto;
+    transition: 0.3s;
+}
+
+.zbosanq p:hover {
+    color: blue;
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.foother1 {
+    margin-top: 15px;
+}
+
+.foother1 h1 {
+    text-align: center;
+    color: yellow;
+    letter-spacing: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}
